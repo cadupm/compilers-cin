@@ -1,0 +1,13 @@
+*~
+*/build
+*/.gradle
+*.so
+*.out
+*.o
+*/provas-leopoldo
+**/*.class
+
+**.DS_Store
+**/antlr4-python3-runtime-4.7.2/**
+**/.antlr/**
+**/autogen/**

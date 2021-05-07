@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin:'application'
+
+mainClassName = "Main"
+
+repositories {
+   mavenCentral()
+   maven { url 'http://repo1.maven.org/maven2' }
+}
+
+dependencies {
+   testCompile 'junit:junit:4.11'
+   compile 'com.google.code.javaparser:javaparser:1.0.11'
+}
